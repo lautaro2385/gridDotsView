@@ -35,8 +35,12 @@ public class DrawView extends View {
         display.getRealSize(size);
         int width = size.x;
         int height = size.y;
-        float step = ((float)width) / 25F;
-        float stepy = ((float)height) / 44F;
+/*
+        float step = ((float)width) / 25F;//22
+        float stepy = ((float)height) / 44F;//42
+*/
+        float step = ((float)width) / 23F;
+        float stepy = ((float)height) / 41F;
         float radio = 2.5F;
 
         Log.i("tavo", String.valueOf(width));
